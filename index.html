@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js" defer></script>
+    <title>Salario por hora</title>
+</head>
+<body>
+    <div class="content">
+        <h1>Quanto você ganha por hora?</h1>
+        <div class="inp-salario">
+            <input type="text" name="" id="input-s" placeholder="Digite seu salario"> 
+        </div>
+    <div class="inp-horas">
+        <input type="text" placeholder="Digite o total de horas" id="input-h"><p>(no mês)</p>
+    </div>
+    <div class="results">
+            <button id="btn">guardar</button>
+            <h2 id="h2-valor">valor = </h2>
+        </div>
+        <div class="calcular">
+            <button id="calc">
+                -Nâo sei informar-
+            </button>
+        </div>
+
+        <div id="calcular-h">
+            <h1>calcular hora</h1>
+            <div class="calc-h">
+                 <h3>Digite quantas horas você trabalha por dia</h3>
+                <input id="calcular-hora" type="text" placeholder="Digite as horas">
+            </div>
+            <div class="calc-d">
+                <h3>Digite quantos dias você trabalha por semana</h3>
+               <input id="calcular-dias" type="text" placeholder="Digite os dias">
+           </div>
+           <div class="btn-calc">
+            <button id="calcular-btn">
+                calcular
+            </button>
+           </div>
+
+           <div class="valor-calc">
+            <h2 id="result-horas">horas = </h2>
+            <button id="voltar">Voltar</button>
+           </div>
+        </div>
+    </div>
+</body>
+</html>
