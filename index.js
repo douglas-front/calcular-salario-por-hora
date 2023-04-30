@@ -13,12 +13,11 @@ function calc (){
   let valorH = inputH.value;
   let final = valorS/valorH
 
-  
- if (valorH == 0 && valorS == 0) {
-  h2Valor.innerText = `valor = ${aviso}`
- }else if(final >= 1){
-  h2Valor.innerText = `valor = ${final} R$ por hora`
- }
+  if (valorH == 0 && valorS == 0) {
+    h2Valor.innerText = `valor = ${aviso}`
+   }else if(final >= 1){
+    h2Valor.innerText = `Valor = ${final} R$`
+   }
 }
 
 
