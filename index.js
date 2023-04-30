@@ -15,7 +15,7 @@ function calc (){
 
   if (valorH == 0 && valorS == 0) {
     h2Valor.innerText = `valor = ${aviso}`
-   }else if(final >= 1){
+   }else if(final > 1){
     h2Valor.innerText = `Valor = ${final} R$`
    }
 }
@@ -49,7 +49,7 @@ function calcularHora (){
 
   if (valorCalcHora == 0 && valorCalcDia == 0) {
     h2ResultHora.innerText = `valor = ${aviso}`
-   }else if(finalCalcHoras >= 1){
+   }else if(finalCalcHoras > 1){
     h2ResultHora.innerText = `horas = ${finalCalcHoras} horas`
    }
 
